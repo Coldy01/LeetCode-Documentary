@@ -1,0 +1,1 @@
+Nodes can be connected if their value difference ≤ maxDiff. After sorting by value, connected components form contiguous segments. For each query, we need the minimum number of "jumps" between segments to reach from node a to node b — classic Binary Lifting on a sorted + windowed structure.
