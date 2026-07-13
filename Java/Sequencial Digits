@@ -1,0 +1,5 @@
+By repeatedly applying this rule:
+
+We can generate every sequential-digit number exactly once, from (1−123456789).
+The elements are guaranteed to be sorted in increasing order.
+Finally, since q is already sorted, we can simply search the precomputed array to return the sequences within [low,high].
